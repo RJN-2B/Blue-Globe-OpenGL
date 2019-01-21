@@ -1,0 +1,104 @@
+﻿  earth.cpp
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\freeimage3151\source\freeimage.h : warning C4819: The file contains a character that cannot be represented in the current code page (932). Save the file in Unicode format to prevent data loss
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\common\common.h(48): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\common\common.h(49): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\common\mat.h(708): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\common\mat.h(709): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\common\mat.h(710): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\common\mat.h(731): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\common\mat.h(733): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\common\mat.h(736): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\common\mat.h(753): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\common\mat.h(833): warning C4244: 'argument': conversion from 'double' to 'const GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\common\common.h(60): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  e:\installations\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(208): note: see declaration of 'fopen'
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\common\objmesh.h(34): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\earth.cpp(181): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\earth.cpp(191): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\earth.cpp(192): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\earth.cpp(199): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\earth.cpp(206): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\earth.cpp(215): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\earth.cpp(214): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\earth.cpp(221): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\earth.cpp(324): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\earth.cpp(325): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\earth.cpp(326): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\earth.cpp(343): warning C4312: 'type cast': conversion from 'unsigned int' to 'GLvoid *' of greater size
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\earth.cpp(344): warning C4312: 'type cast': conversion from 'unsigned int' to 'GLvoid *' of greater size
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\earth.cpp(368): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\earth.cpp(369): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\earth.cpp(370): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\earth.cpp(470): warning C4305: 'argument': truncation from 'double' to 'const GLfloat'
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\earth.cpp(492): warning C4305: 'argument': truncation from 'double' to 'const GLfloat'
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\earth.cpp(511): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+  ObjMesh.cpp
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\freeimage3151\source\freeimage.h : warning C4819: The file contains a character that cannot be represented in the current code page (932). Save the file in Unicode format to prevent data loss
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\common\common.h(48): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\common\common.h(49): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\common\mat.h(708): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\common\mat.h(709): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\common\mat.h(710): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\common\mat.h(731): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\common\mat.h(733): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\common\mat.h(736): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\common\mat.h(753): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\common\mat.h(833): warning C4244: 'argument': conversion from 'double' to 'const GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\common\common.h(60): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  e:\installations\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(208): note: see declaration of 'fopen'
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\common\objmesh.h(34): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\common\objmesh.cpp(69): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\common\objmesh.cpp(73): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\common\objmesh.cpp(77): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\common\objmesh.cpp(125): warning C4244: 'argument': conversion from 'double' to 'const GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\common\objmesh.cpp(124): warning C4244: 'argument': conversion from 'double' to 'const GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\common\objmesh.cpp(123): warning C4244: 'argument': conversion from 'double' to 'const GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\common\objmesh.cpp(12): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  e:\installations\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(208): note: see declaration of 'fopen'
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\common\objmesh.cpp(26): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  e:\installations\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(2263): note: see declaration of 'sscanf'
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\common\objmesh.cpp(30): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  e:\installations\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(2263): note: see declaration of 'sscanf'
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\common\objmesh.cpp(40): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  e:\installations\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(2263): note: see declaration of 'sscanf'
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\common\objmesh.cpp(44): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  e:\installations\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(2263): note: see declaration of 'sscanf'
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\common\objmesh.cpp(49): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  e:\installations\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(2263): note: see declaration of 'sscanf'
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\common\objmesh.cpp(53): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  e:\installations\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(2263): note: see declaration of 'sscanf'
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\common\objmesh.cpp(157): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\common\objmesh.cpp(167): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\common\objmesh.cpp(178): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\common\objmesh.cpp(190): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\common\objmesh.cpp(198): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\common\objmesh.cpp(200): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\common\objmesh.cpp(202): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\common\objmesh.cpp(204): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\common\objmesh.cpp(207): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\common\objmesh.cpp(209): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\common\objmesh.cpp(215): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\common\objmesh.cpp(217): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\common\objmesh.cpp(219): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\common\objmesh.cpp(221): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\common\objmesh.cpp(223): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\common\objmesh.cpp(225): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+  SourcePath.cpp
+  Trackball.cpp
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\freeimage3151\source\freeimage.h : warning C4819: The file contains a character that cannot be represented in the current code page (932). Save the file in Unicode format to prevent data loss
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\common\common.h(48): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\common\common.h(49): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\common\mat.h(708): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\common\mat.h(709): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\common\mat.h(710): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\common\mat.h(731): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\common\mat.h(733): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\common\mat.h(736): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\common\mat.h(753): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\common\mat.h(833): warning C4244: 'argument': conversion from 'double' to 'const GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\common\common.h(60): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  e:\installations\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(208): note: see declaration of 'fopen'
+e:\school\tulane\junior\fall\graphics\uploading this rt\blue globe opengl\source\common\objmesh.h(34): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+  Generating Code...
+     Creating library E:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/Blue Globe OpenGL/build/Debug/earth.lib and object E:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/Blue Globe OpenGL/build/Debug/earth.exp
+  earth.vcxproj -> E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\build\Debug\earth.exe

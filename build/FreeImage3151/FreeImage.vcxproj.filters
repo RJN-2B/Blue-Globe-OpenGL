@@ -1,0 +1,961 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\BitmapAccess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\CacheFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\ColorLookup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\Conversion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\Conversion16_555.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\Conversion16_565.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\Conversion24.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\Conversion32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\Conversion4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\Conversion8.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\ConversionRGBF.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\ConversionType.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\ConversionRGB16.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\FreeImage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\FreeImageIO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\GetType.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\Halftoning.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\J2KHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\MemoryIO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\MultiPage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\NNQuantizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\PSDParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\PixelAccess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\Plugin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\PluginBMP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\PluginCUT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\PluginDDS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\PluginEXR.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\PluginG3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\PluginGIF.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\PluginHDR.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\PluginICO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\PluginIFF.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\PluginJ2K.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\PluginJP2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\PluginJPEG.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\PluginKOALA.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\PluginMNG.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\PluginPCD.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\PluginPCX.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\PluginPFM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\PluginPICT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\PluginPNG.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\PluginPNM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\PluginPSD.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\PluginRAS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\PluginRAW.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\PluginSGI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\PluginTARGA.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\PluginTIFF.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\PluginWBMP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\PluginXBM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\PluginXPM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\TIFFLogLuv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\ToneMapping.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\WuQuantizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\ZLibInterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\tmoColorConvert.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\tmoDrago03.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\tmoFattal02.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\tmoReinhard05.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImageToolkit\BSplineRotate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImageToolkit\Background.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImageToolkit\Channels.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImageToolkit\ClassicRotate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImageToolkit\Colors.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImageToolkit\CopyPaste.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImageToolkit\Display.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImageToolkit\Flip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImageToolkit\JPEGTransform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImageToolkit\MultigridPoissonSolver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImageToolkit\Rescale.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImageToolkit\Resize.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jaricom.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jcapimin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jcapistd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jcarith.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jccoefct.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jccolor.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jcdctmgr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jchuff.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jcinit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jcmainct.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jcmarker.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jcmaster.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jcomapi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jcparam.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jcprepct.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jcsample.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jctrans.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jdapimin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jdapistd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jdarith.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jdatadst.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jdatasrc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jdcoefct.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jdcolor.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jddctmgr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jdhuff.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jdinput.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jdmainct.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jdmarker.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jdmaster.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jdmerge.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jdpostct.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jdsample.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jdtrans.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jerror.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jfdctflt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jfdctfst.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jfdctint.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jidctflt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jidctfst.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jidctint.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jmemansi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jmemmgr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jquant1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jquant2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jutils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\rdbmp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\rdcolmap.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\rdgif.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\rdppm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\rdrle.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\rdswitch.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\rdtarga.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\transupp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\wrbmp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\wrgif.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\wrppm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\wrrle.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\wrtarga.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibMNG\libmng_callback_xs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibMNG\libmng_chunk_descr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibMNG\libmng_chunk_io.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibMNG\libmng_chunk_prc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibMNG\libmng_chunk_xs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibMNG\libmng_cms.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibMNG\libmng_display.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibMNG\libmng_dither.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibMNG\libmng_error.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibMNG\libmng_filter.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibMNG\libmng_hlapi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibMNG\libmng_jpeg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibMNG\libmng_object_prc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibMNG\libmng_pixels.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibMNG\libmng_prop_xs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibMNG\libmng_read.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibMNG\libmng_trace.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibMNG\libmng_write.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibMNG\libmng_zlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibOpenJPEG\bio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibOpenJPEG\cio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibOpenJPEG\dwt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibOpenJPEG\event.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibOpenJPEG\image.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibOpenJPEG\j2k.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibOpenJPEG\j2k_lib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibOpenJPEG\jp2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibOpenJPEG\jpt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibOpenJPEG\mct.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibOpenJPEG\mqc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibOpenJPEG\openjpeg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibOpenJPEG\pi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibOpenJPEG\raw.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibOpenJPEG\t1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibOpenJPEG\t2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibOpenJPEG\tcd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibOpenJPEG\tgt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibPNG\png.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibPNG\pngerror.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibPNG\pngget.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibPNG\pngmem.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibPNG\pngpread.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibPNG\pngread.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibPNG\pngrio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibPNG\pngrtran.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibPNG\pngrutil.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibPNG\pngset.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibPNG\pngtrans.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibPNG\pngwio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibPNG\pngwrite.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibPNG\pngwtran.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibPNG\pngwutil.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF\tif_aux.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF\tif_close.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF\tif_codec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF\tif_color.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF\tif_compress.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF\tif_dir.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF\tif_dirinfo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF\tif_dirread.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF\tif_dirwrite.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF\tif_dumpmode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF\tif_error.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF\tif_extension.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF\tif_fax3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF\tif_fax3sm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF\tif_flush.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF\tif_getimage.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF\tif_jbig.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF\tif_jpeg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF\tif_luv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF\tif_lzw.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF\tif_next.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF\tif_ojpeg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF\tif_open.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF\tif_packbits.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF\tif_pixarlog.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF\tif_predict.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF\tif_print.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF\tif_read.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF\tif_strip.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF\tif_swab.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF\tif_thunder.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF\tif_tile.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF\tif_version.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF\tif_warning.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF\tif_write.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF\tif_zip.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\Metadata\Exif.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\Metadata\FIRational.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\Metadata\FreeImageTag.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\Metadata\IPTC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\Metadata\TagConversion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\Metadata\TagLib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\Metadata\XTIFF.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\Half\half.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\Iex\IexBaseExc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\Iex\IexThrowErrnoExc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfAttribute.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfB44Compressor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfBoxAttribute.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfCRgbaFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfChannelList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfChannelListAttribute.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfChromaticities.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfChromaticitiesAttribute.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfCompressionAttribute.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfCompressor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfConvert.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfDoubleAttribute.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfEnvmap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfEnvmapAttribute.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfFloatAttribute.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfFrameBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfFramesPerSecond.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfHeader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfHuf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfIO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfInputFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfIntAttribute.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfKeyCode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfKeyCodeAttribute.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfLineOrderAttribute.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfLut.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfMatrixAttribute.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfMisc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfMultiView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfOpaqueAttribute.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfOutputFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfPizCompressor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfPreviewImage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfPreviewImageAttribute.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfPxr24Compressor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfRational.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfRationalAttribute.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfRgbaFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfRgbaYca.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfRleCompressor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfScanLineInputFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfStandardAttributes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfStdIO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfStringAttribute.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfStringVectorAttribute.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfTestFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfThreading.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfTileDescriptionAttribute.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfTileOffsets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfTiledInputFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfTiledMisc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfTiledOutputFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfTiledRgbaFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfTimeCode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfTimeCodeAttribute.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfVecAttribute.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfVersion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfWav.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfZipCompressor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmThread\IlmThreadPool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\Imath\ImathBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\Imath\ImathColorAlgo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\Imath\ImathFun.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\Imath\ImathMatrixAlgo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\Imath\ImathRandom.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\Imath\ImathShear.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\Imath\ImathVec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmThread\IlmThreadMutexWin32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmThread\IlmThreadSemaphoreWin32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmThread\IlmThreadWin32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibRawLite\src\libraw_cxx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibRawLite\src\libraw_c_api.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibRawLite\internal\dcraw_common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibRawLite\internal\dcraw_fileio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibRawLite\internal\demosaic_packs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\ZLib\adler32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\ZLib\compress.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\ZLib\crc32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\ZLib\deflate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\ZLib\infback.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\ZLib\inffast.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\ZLib\inflate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\ZLib\inftrees.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\ZLib\trees.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\ZLib\uncompr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\ZLib\zutil.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{AFE1BC3D-2F5A-3E62-AFEC-4CBA5BB16478}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

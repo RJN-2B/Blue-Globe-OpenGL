@@ -1,0 +1,7 @@
+E:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/Blue Globe OpenGL/build/CMakeFiles/glad.dir
+E:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/Blue Globe OpenGL/build/CMakeFiles/earth.dir
+E:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/Blue Globe OpenGL/build/CMakeFiles/ALL_BUILD.dir
+E:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/Blue Globe OpenGL/build/CMakeFiles/ZERO_CHECK.dir
+E:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/Blue Globe OpenGL/build/glfw-3.2/CMakeFiles/ALL_BUILD.dir
+E:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/Blue Globe OpenGL/build/glfw-3.2/src/CMakeFiles/glfw.dir
+E:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/Blue Globe OpenGL/build/FreeImage3151/CMakeFiles/FreeImage.dir

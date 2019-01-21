@@ -1,0 +1,1388 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{01A1305D-EB06-3E8C-8FDD-AFC55DC5D307}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>FreeImage</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\build\FreeImage3151\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">FreeImage.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">FreeImage</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\build\FreeImage3151\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">FreeImage.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">FreeImage</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\build\FreeImage3151\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">FreeImage.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">FreeImage</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\build\FreeImage3151\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">FreeImage.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">FreeImage</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\glfw-3.2\deps;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibMNG;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibOpenJPEG;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibPNG;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibRawLite;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\source\common;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\shaders;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\DeprecationManager;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\Metadata;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\ZLib;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\Half;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\Iex;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmThread;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\Imath;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\glfw-3.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;FREEIMAGE_LIB=1;OPJ_STATIC;LIBRAW_NODLL;LIBRAW_LIBRARY_BUILD;FREEIMAGE_LIB;NO_LCMS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;FREEIMAGE_LIB=1;OPJ_STATIC;LIBRAW_NODLL;LIBRAW_LIBRARY_BUILD;FREEIMAGE_LIB;NO_LCMS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\glfw-3.2\deps;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibMNG;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibOpenJPEG;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibPNG;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibRawLite;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\source\common;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\shaders;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\DeprecationManager;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\Metadata;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\ZLib;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\Half;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\Iex;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmThread;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\Imath;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\glfw-3.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\glfw-3.2\deps;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibMNG;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibOpenJPEG;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibPNG;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibRawLite;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\source\common;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\shaders;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\DeprecationManager;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\Metadata;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\ZLib;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\Half;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\Iex;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmThread;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\Imath;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\glfw-3.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\glfw-3.2\deps;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibMNG;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibOpenJPEG;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibPNG;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibRawLite;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\source\common;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\shaders;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\DeprecationManager;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\Metadata;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\ZLib;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\Half;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\Iex;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmThread;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\Imath;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\glfw-3.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;FREEIMAGE_LIB=1;OPJ_STATIC;LIBRAW_NODLL;LIBRAW_LIBRARY_BUILD;FREEIMAGE_LIB;NO_LCMS;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;FREEIMAGE_LIB=1;OPJ_STATIC;LIBRAW_NODLL;LIBRAW_LIBRARY_BUILD;FREEIMAGE_LIB;NO_LCMS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\glfw-3.2\deps;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibMNG;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibOpenJPEG;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibPNG;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibRawLite;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\source\common;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\shaders;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\DeprecationManager;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\Metadata;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\ZLib;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\Half;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\Iex;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmThread;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\Imath;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\glfw-3.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\glfw-3.2\deps;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibMNG;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibOpenJPEG;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibPNG;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibRawLite;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\source\common;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\shaders;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\DeprecationManager;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\Metadata;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\ZLib;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\Half;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\Iex;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmThread;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\Imath;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\glfw-3.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\glfw-3.2\deps;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibMNG;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibOpenJPEG;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibPNG;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibRawLite;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\source\common;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\shaders;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\DeprecationManager;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\Metadata;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\ZLib;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\Half;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\Iex;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmThread;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\Imath;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\glfw-3.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;FREEIMAGE_LIB=1;OPJ_STATIC;LIBRAW_NODLL;LIBRAW_LIBRARY_BUILD;FREEIMAGE_LIB;NO_LCMS;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;FREEIMAGE_LIB=1;OPJ_STATIC;LIBRAW_NODLL;LIBRAW_LIBRARY_BUILD;FREEIMAGE_LIB;NO_LCMS;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\glfw-3.2\deps;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibMNG;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibOpenJPEG;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibPNG;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibRawLite;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\source\common;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\shaders;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\DeprecationManager;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\Metadata;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\ZLib;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\Half;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\Iex;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmThread;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\Imath;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\glfw-3.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\glfw-3.2\deps;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibMNG;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibOpenJPEG;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibPNG;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibRawLite;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\source\common;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\shaders;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\DeprecationManager;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\Metadata;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\ZLib;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\Half;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\Iex;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmThread;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\Imath;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\glfw-3.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\glfw-3.2\deps;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibMNG;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibOpenJPEG;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibPNG;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibRawLite;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\source\common;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\shaders;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\DeprecationManager;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\Metadata;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\ZLib;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\Half;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\Iex;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmThread;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\Imath;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\glfw-3.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;FREEIMAGE_LIB=1;OPJ_STATIC;LIBRAW_NODLL;LIBRAW_LIBRARY_BUILD;FREEIMAGE_LIB;NO_LCMS;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;FREEIMAGE_LIB=1;OPJ_STATIC;LIBRAW_NODLL;LIBRAW_LIBRARY_BUILD;FREEIMAGE_LIB;NO_LCMS;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\glfw-3.2\deps;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibMNG;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibOpenJPEG;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibPNG;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibRawLite;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\source\common;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\shaders;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\DeprecationManager;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\Metadata;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\ZLib;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\Half;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\Iex;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmThread;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\Imath;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\glfw-3.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\glfw-3.2\deps;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibMNG;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibOpenJPEG;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibPNG;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibRawLite;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\source\common;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\shaders;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\DeprecationManager;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\Metadata;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\ZLib;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\Half;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\Iex;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmThread;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\Imath;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\glfw-3.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/Blue Globe OpenGL/FreeImage3151/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"E:\Installations\Program Files\CMake\bin\cmake.exe" "-HE:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/Blue Globe OpenGL" "-BE:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/Blue Globe OpenGL/build" --check-stamp-file "E:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/Blue Globe OpenGL/build/FreeImage3151/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/Blue Globe OpenGL/FreeImage3151/CMakeLists.txt;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\CMakeLists.txt;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\build\FreeImage3151\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/Blue Globe OpenGL/FreeImage3151/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"E:\Installations\Program Files\CMake\bin\cmake.exe" "-HE:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/Blue Globe OpenGL" "-BE:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/Blue Globe OpenGL/build" --check-stamp-file "E:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/Blue Globe OpenGL/build/FreeImage3151/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/Blue Globe OpenGL/FreeImage3151/CMakeLists.txt;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\CMakeLists.txt;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\build\FreeImage3151\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/Blue Globe OpenGL/FreeImage3151/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"E:\Installations\Program Files\CMake\bin\cmake.exe" "-HE:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/Blue Globe OpenGL" "-BE:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/Blue Globe OpenGL/build" --check-stamp-file "E:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/Blue Globe OpenGL/build/FreeImage3151/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/Blue Globe OpenGL/FreeImage3151/CMakeLists.txt;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\CMakeLists.txt;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\build\FreeImage3151\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/Blue Globe OpenGL/FreeImage3151/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"E:\Installations\Program Files\CMake\bin\cmake.exe" "-HE:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/Blue Globe OpenGL" "-BE:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/Blue Globe OpenGL/build" --check-stamp-file "E:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/Blue Globe OpenGL/build/FreeImage3151/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/Blue Globe OpenGL/FreeImage3151/CMakeLists.txt;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\CMakeLists.txt;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\build\FreeImage3151\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\BitmapAccess.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\CacheFile.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\ColorLookup.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\Conversion.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\Conversion16_555.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\Conversion16_565.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\Conversion24.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\Conversion32.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\Conversion4.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\Conversion8.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\ConversionRGBF.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\ConversionType.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\ConversionRGB16.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\FreeImage.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\FreeImageIO.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\GetType.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\Halftoning.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\J2KHelper.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\MemoryIO.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\MultiPage.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\NNQuantizer.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\PSDParser.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\PixelAccess.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\Plugin.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\PluginBMP.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\PluginCUT.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\PluginDDS.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\PluginEXR.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\PluginG3.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\PluginGIF.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\PluginHDR.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\PluginICO.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\PluginIFF.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\PluginJ2K.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\PluginJP2.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\PluginJPEG.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\PluginKOALA.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\PluginMNG.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\PluginPCD.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\PluginPCX.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\PluginPFM.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\PluginPICT.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\PluginPNG.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\PluginPNM.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\PluginPSD.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\PluginRAS.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\PluginRAW.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\PluginSGI.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\PluginTARGA.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\PluginTIFF.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\PluginWBMP.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\PluginXBM.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\PluginXPM.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\TIFFLogLuv.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\ToneMapping.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\WuQuantizer.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\ZLibInterface.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\tmoColorConvert.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\tmoDrago03.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\tmoFattal02.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImage\tmoReinhard05.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImageToolkit\BSplineRotate.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImageToolkit\Background.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImageToolkit\Channels.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImageToolkit\ClassicRotate.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImageToolkit\Colors.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImageToolkit\CopyPaste.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImageToolkit\Display.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImageToolkit\Flip.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImageToolkit\JPEGTransform.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImageToolkit\MultigridPoissonSolver.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImageToolkit\Rescale.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\FreeImageToolkit\Resize.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jaricom.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jcapimin.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jcapistd.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jcarith.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jccoefct.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jccolor.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jcdctmgr.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jchuff.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jcinit.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jcmainct.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jcmarker.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jcmaster.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jcomapi.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jcparam.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jcprepct.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jcsample.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jctrans.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jdapimin.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jdapistd.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jdarith.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jdatadst.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jdatasrc.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jdcoefct.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jdcolor.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jddctmgr.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jdhuff.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jdinput.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jdmainct.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jdmarker.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jdmaster.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jdmerge.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jdpostct.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jdsample.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jdtrans.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jerror.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jfdctflt.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jfdctfst.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jfdctint.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jidctflt.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jidctfst.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jidctint.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jmemansi.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jmemmgr.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jquant1.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jquant2.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\jutils.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\rdbmp.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\rdcolmap.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\rdgif.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\rdppm.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\rdrle.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\rdswitch.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\rdtarga.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\transupp.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\wrbmp.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\wrgif.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\wrppm.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\wrrle.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG\wrtarga.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibMNG\libmng_callback_xs.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibMNG\libmng_chunk_descr.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibMNG\libmng_chunk_io.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibMNG\libmng_chunk_prc.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibMNG\libmng_chunk_xs.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibMNG\libmng_cms.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibMNG\libmng_display.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibMNG\libmng_dither.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibMNG\libmng_error.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibMNG\libmng_filter.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibMNG\libmng_hlapi.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibMNG\libmng_jpeg.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibMNG\libmng_object_prc.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibMNG\libmng_pixels.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibMNG\libmng_prop_xs.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibMNG\libmng_read.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibMNG\libmng_trace.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibMNG\libmng_write.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibMNG\libmng_zlib.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibOpenJPEG\bio.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibOpenJPEG\cio.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibOpenJPEG\dwt.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibOpenJPEG\event.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibOpenJPEG\image.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibOpenJPEG\j2k.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibOpenJPEG\j2k_lib.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibOpenJPEG\jp2.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibOpenJPEG\jpt.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibOpenJPEG\mct.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibOpenJPEG\mqc.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibOpenJPEG\openjpeg.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibOpenJPEG\pi.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibOpenJPEG\raw.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibOpenJPEG\t1.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibOpenJPEG\t2.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibOpenJPEG\tcd.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibOpenJPEG\tgt.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibPNG\png.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibPNG\pngerror.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibPNG\pngget.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibPNG\pngmem.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibPNG\pngpread.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibPNG\pngread.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibPNG\pngrio.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibPNG\pngrtran.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibPNG\pngrutil.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibPNG\pngset.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibPNG\pngtrans.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibPNG\pngwio.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibPNG\pngwrite.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibPNG\pngwtran.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibPNG\pngwutil.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF\tif_aux.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF\tif_close.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF\tif_codec.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF\tif_color.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF\tif_compress.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF\tif_dir.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF\tif_dirinfo.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF\tif_dirread.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF\tif_dirwrite.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF\tif_dumpmode.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF\tif_error.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF\tif_extension.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF\tif_fax3.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF\tif_fax3sm.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF\tif_flush.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF\tif_getimage.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF\tif_jbig.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF\tif_jpeg.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF\tif_luv.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF\tif_lzw.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF\tif_next.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF\tif_ojpeg.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF\tif_open.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF\tif_packbits.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF\tif_pixarlog.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF\tif_predict.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF\tif_print.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF\tif_read.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF\tif_strip.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF\tif_swab.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF\tif_thunder.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF\tif_tile.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF\tif_version.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF\tif_warning.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF\tif_write.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF\tif_zip.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\Metadata\Exif.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\Metadata\FIRational.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\Metadata\FreeImageTag.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\Metadata\IPTC.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\Metadata\TagConversion.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\Metadata\TagLib.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\Metadata\XTIFF.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\Half\half.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\Iex\IexBaseExc.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\Iex\IexThrowErrnoExc.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfAttribute.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfB44Compressor.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfBoxAttribute.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfCRgbaFile.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfChannelList.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfChannelListAttribute.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfChromaticities.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfChromaticitiesAttribute.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfCompressionAttribute.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfCompressor.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfConvert.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfDoubleAttribute.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfEnvmap.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfEnvmapAttribute.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfFloatAttribute.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfFrameBuffer.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfFramesPerSecond.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfHeader.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfHuf.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfIO.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfInputFile.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfIntAttribute.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfKeyCode.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfKeyCodeAttribute.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfLineOrderAttribute.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfLut.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfMatrixAttribute.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfMisc.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfMultiView.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfOpaqueAttribute.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfOutputFile.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfPizCompressor.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfPreviewImage.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfPreviewImageAttribute.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfPxr24Compressor.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfRational.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfRationalAttribute.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfRgbaFile.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfRgbaYca.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfRleCompressor.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfScanLineInputFile.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfStandardAttributes.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfStdIO.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfStringAttribute.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfStringVectorAttribute.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfTestFile.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfThreading.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfTileDescriptionAttribute.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfTileOffsets.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfTiledInputFile.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfTiledMisc.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfTiledOutputFile.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfTiledRgbaFile.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfTimeCode.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfTimeCodeAttribute.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfVecAttribute.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfVersion.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfWav.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmImf\ImfZipCompressor.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmThread\IlmThreadPool.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\Imath\ImathBox.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\Imath\ImathColorAlgo.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\Imath\ImathFun.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\Imath\ImathMatrixAlgo.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\Imath\ImathRandom.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\Imath\ImathShear.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\Imath\ImathVec.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmThread\IlmThreadMutexWin32.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmThread\IlmThreadSemaphoreWin32.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\OpenEXR\IlmThread\IlmThreadWin32.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibRawLite\src\libraw_cxx.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibRawLite\src\libraw_c_api.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibRawLite\internal\dcraw_common.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibRawLite\internal\dcraw_fileio.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibRawLite\internal\demosaic_packs.cpp" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\ZLib\adler32.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\ZLib\compress.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\ZLib\crc32.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\ZLib\deflate.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\ZLib\infback.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\ZLib\inffast.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\ZLib\inflate.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\ZLib\inftrees.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\ZLib\trees.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\ZLib\uncompr.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\ZLib\zutil.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\build\ZERO_CHECK.vcxproj">
+      <Project>{5E0BB883-E4D1-340E-A065-E912275EB3DD}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\build\glad.vcxproj">
+      <Project>{F7A8F8A9-6755-3012-B209-0A29BDB4496B}</Project>
+      <Name>glad</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\build\glfw-3.2\src\glfw.vcxproj">
+      <Project>{776E79C1-0643-3FF2-8366-BFA6C8EAF7F4}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

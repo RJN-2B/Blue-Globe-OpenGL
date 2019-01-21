@@ -1,0 +1,381 @@
+The system is: Windows - 6.1.7601 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine version 15.8.168+ga8fba1ebd7 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 1/20/2019 10:57:37 PM.
+Project "E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\build\CMakeFiles\3.12.1\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  E:\Visual Studio\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:classic /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  E:\Visual Studio\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\build\CMakeFiles\3.12.1\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=E:\Visual Studio\VC\Tools\MSVC\14.15.26726\bin\Hostx86\x64\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Done Building Project "E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\build\CMakeFiles\3.12.1\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.81
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "E:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/Blue Globe OpenGL/build/CMakeFiles/3.12.1/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine version 15.8.168+ga8fba1ebd7 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 1/20/2019 10:57:39 PM.
+Project "E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\build\CMakeFiles\3.12.1\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  E:\Visual Studio\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:classic /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  E:\Visual Studio\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\build\CMakeFiles\3.12.1\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=E:\Visual Studio\VC\Tools\MSVC\14.15.26726\bin\Hostx86\x64\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Done Building Project "E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\build\CMakeFiles\3.12.1\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.72
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "E:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/Blue Globe OpenGL/build/CMakeFiles/3.12.1/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: E:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/Blue Globe OpenGL/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:/Visual Studio/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_66bdf.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.8.168+ga8fba1ebd7 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 1/20/2019 10:57:40 PM.
+Project "E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\build\CMakeFiles\CMakeTmp\cmTC_66bdf.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_66bdf.dir\Debug\".
+  Creating directory "E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_66bdf.dir\Debug\cmTC_66bdf.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_66bdf.dir\Debug\cmTC_66bdf.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  E:\Visual Studio\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_66bdf.dir\Debug\\" /Fd"cmTC_66bdf.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\build\CMakeFiles\CMakeTmp\testCCompiler.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.15.26726 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_66bdf.dir\Debug\\" /Fd"cmTC_66bdf.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\build\CMakeFiles\CMakeTmp\testCCompiler.c"
+  testCCompiler.c
+  
+Link:
+  E:\Visual Studio\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\build\CMakeFiles\CMakeTmp\Debug\cmTC_66bdf.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/Blue Globe OpenGL/build/CMakeFiles/CMakeTmp/Debug/cmTC_66bdf.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/Blue Globe OpenGL/build/CMakeFiles/CMakeTmp/Debug/cmTC_66bdf.lib" /MACHINE:X64  /machine:x64 cmTC_66bdf.dir\Debug\testCCompiler.obj
+  cmTC_66bdf.vcxproj -> E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\build\CMakeFiles\CMakeTmp\Debug\cmTC_66bdf.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_66bdf.dir\Debug\cmTC_66bdf.tlog\unsuccessfulbuild".
+  Touching "cmTC_66bdf.dir\Debug\cmTC_66bdf.tlog\cmTC_66bdf.lastbuildstate".
+Done Building Project "E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\build\CMakeFiles\CMakeTmp\cmTC_66bdf.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.92
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: E:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/Blue Globe OpenGL/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:/Visual Studio/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_0322a.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.8.168+ga8fba1ebd7 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 1/20/2019 10:57:41 PM.
+Project "E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\build\CMakeFiles\CMakeTmp\cmTC_0322a.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_0322a.dir\Debug\".
+  Creating directory "E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_0322a.dir\Debug\cmTC_0322a.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_0322a.dir\Debug\cmTC_0322a.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  E:\Visual Studio\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0322a.dir\Debug\\" /Fd"cmTC_0322a.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "E:\Installations\Program Files\CMake\share\cmake-3.12\Modules\CMakeCCompilerABI.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.15.26726 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0322a.dir\Debug\\" /Fd"cmTC_0322a.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "E:\Installations\Program Files\CMake\share\cmake-3.12\Modules\CMakeCCompilerABI.c"
+  CMakeCCompilerABI.c
+  
+Link:
+  E:\Visual Studio\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\build\CMakeFiles\CMakeTmp\Debug\cmTC_0322a.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/Blue Globe OpenGL/build/CMakeFiles/CMakeTmp/Debug/cmTC_0322a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/Blue Globe OpenGL/build/CMakeFiles/CMakeTmp/Debug/cmTC_0322a.lib" /MACHINE:X64  /machine:x64 cmTC_0322a.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_0322a.vcxproj -> E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\build\CMakeFiles\CMakeTmp\Debug\cmTC_0322a.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_0322a.dir\Debug\cmTC_0322a.tlog\unsuccessfulbuild".
+  Touching "cmTC_0322a.dir\Debug\cmTC_0322a.tlog\cmTC_0322a.lastbuildstate".
+Done Building Project "E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\build\CMakeFiles\CMakeTmp\cmTC_0322a.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.63
+
+
+
+
+Detecting C [] compiler features compiled with the following output:
+Change Dir: E:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/Blue Globe OpenGL/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:/Visual Studio/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_d8593.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.8.168+ga8fba1ebd7 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 1/20/2019 10:57:42 PM.
+Project "E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\build\CMakeFiles\CMakeTmp\cmTC_d8593.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_d8593.dir\Debug\".
+  Creating directory "E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_d8593.dir\Debug\cmTC_d8593.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_d8593.dir\Debug\cmTC_d8593.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  E:\Visual Studio\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d8593.dir\Debug\\" /Fd"cmTC_d8593.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\build\CMakeFiles\feature_tests.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.15.26726 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d8593.dir\Debug\\" /Fd"cmTC_d8593.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\build\CMakeFiles\feature_tests.c"
+  feature_tests.c
+  
+Link:
+  E:\Visual Studio\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\build\CMakeFiles\CMakeTmp\Debug\cmTC_d8593.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/Blue Globe OpenGL/build/CMakeFiles/CMakeTmp/Debug/cmTC_d8593.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/Blue Globe OpenGL/build/CMakeFiles/CMakeTmp/Debug/cmTC_d8593.lib" /MACHINE:X64  /machine:x64 cmTC_d8593.dir\Debug\feature_tests.obj
+  cmTC_d8593.vcxproj -> E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\build\CMakeFiles\CMakeTmp\Debug\cmTC_d8593.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_d8593.dir\Debug\cmTC_d8593.tlog\unsuccessfulbuild".
+  Touching "cmTC_d8593.dir\Debug\cmTC_d8593.tlog\cmTC_d8593.lastbuildstate".
+Done Building Project "E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\build\CMakeFiles\CMakeTmp\cmTC_d8593.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.58
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: E:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/Blue Globe OpenGL/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:/Visual Studio/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_ff23c.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.8.168+ga8fba1ebd7 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 1/20/2019 10:57:43 PM.
+Project "E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\build\CMakeFiles\CMakeTmp\cmTC_ff23c.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_ff23c.dir\Debug\".
+  Creating directory "E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_ff23c.dir\Debug\cmTC_ff23c.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_ff23c.dir\Debug\cmTC_ff23c.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  E:\Visual Studio\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ff23c.dir\Debug\\" /Fd"cmTC_ff23c.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue "E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.15.26726 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ff23c.dir\Debug\\" /Fd"cmTC_ff23c.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue "E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  testCXXCompiler.cxx
+  
+Link:
+  E:\Visual Studio\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\build\CMakeFiles\CMakeTmp\Debug\cmTC_ff23c.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/Blue Globe OpenGL/build/CMakeFiles/CMakeTmp/Debug/cmTC_ff23c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/Blue Globe OpenGL/build/CMakeFiles/CMakeTmp/Debug/cmTC_ff23c.lib" /MACHINE:X64  /machine:x64 cmTC_ff23c.dir\Debug\testCXXCompiler.obj
+  cmTC_ff23c.vcxproj -> E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\build\CMakeFiles\CMakeTmp\Debug\cmTC_ff23c.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_ff23c.dir\Debug\cmTC_ff23c.tlog\unsuccessfulbuild".
+  Touching "cmTC_ff23c.dir\Debug\cmTC_ff23c.tlog\cmTC_ff23c.lastbuildstate".
+Done Building Project "E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\build\CMakeFiles\CMakeTmp\cmTC_ff23c.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.58
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: E:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/Blue Globe OpenGL/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:/Visual Studio/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_e362a.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.8.168+ga8fba1ebd7 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 1/20/2019 10:57:44 PM.
+Project "E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\build\CMakeFiles\CMakeTmp\cmTC_e362a.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_e362a.dir\Debug\".
+  Creating directory "E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_e362a.dir\Debug\cmTC_e362a.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_e362a.dir\Debug\cmTC_e362a.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  E:\Visual Studio\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e362a.dir\Debug\\" /Fd"cmTC_e362a.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue "E:\Installations\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.15.26726 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e362a.dir\Debug\\" /Fd"cmTC_e362a.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue "E:\Installations\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp"
+  CMakeCXXCompilerABI.cpp
+  
+Link:
+  E:\Visual Studio\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\build\CMakeFiles\CMakeTmp\Debug\cmTC_e362a.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/Blue Globe OpenGL/build/CMakeFiles/CMakeTmp/Debug/cmTC_e362a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/Blue Globe OpenGL/build/CMakeFiles/CMakeTmp/Debug/cmTC_e362a.lib" /MACHINE:X64  /machine:x64 cmTC_e362a.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTC_e362a.vcxproj -> E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\build\CMakeFiles\CMakeTmp\Debug\cmTC_e362a.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_e362a.dir\Debug\cmTC_e362a.tlog\unsuccessfulbuild".
+  Touching "cmTC_e362a.dir\Debug\cmTC_e362a.tlog\cmTC_e362a.lastbuildstate".
+Done Building Project "E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\build\CMakeFiles\CMakeTmp\cmTC_e362a.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.63
+
+
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: E:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/Blue Globe OpenGL/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:/Visual Studio/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_5b99a.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.8.168+ga8fba1ebd7 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 1/20/2019 10:57:44 PM.
+Project "E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\build\CMakeFiles\CMakeTmp\cmTC_5b99a.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_5b99a.dir\Debug\".
+  Creating directory "E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_5b99a.dir\Debug\cmTC_5b99a.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_5b99a.dir\Debug\cmTC_5b99a.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  E:\Visual Studio\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_5b99a.dir\Debug\\" /Fd"cmTC_5b99a.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue "E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\build\CMakeFiles\feature_tests.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.15.26726 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_5b99a.dir\Debug\\" /Fd"cmTC_5b99a.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue "E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\build\CMakeFiles\feature_tests.cxx"
+  feature_tests.cxx
+  
+Link:
+  E:\Visual Studio\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\build\CMakeFiles\CMakeTmp\Debug\cmTC_5b99a.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/Blue Globe OpenGL/build/CMakeFiles/CMakeTmp/Debug/cmTC_5b99a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/Blue Globe OpenGL/build/CMakeFiles/CMakeTmp/Debug/cmTC_5b99a.lib" /MACHINE:X64  /machine:x64 cmTC_5b99a.dir\Debug\feature_tests.obj
+  cmTC_5b99a.vcxproj -> E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\build\CMakeFiles\CMakeTmp\Debug\cmTC_5b99a.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_5b99a.dir\Debug\cmTC_5b99a.tlog\unsuccessfulbuild".
+  Touching "cmTC_5b99a.dir\Debug\cmTC_5b99a.tlog\cmTC_5b99a.lastbuildstate".
+Done Building Project "E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\build\CMakeFiles\CMakeTmp\cmTC_5b99a.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.58
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates

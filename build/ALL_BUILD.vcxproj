@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1576C63B-3F2A-355C-A0C2-F01B3B3F49FE}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\glfw-3.2\deps;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibMNG;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibOpenJPEG;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibPNG;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibRawLite;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\source\common;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\shaders;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\glfw-3.2\deps;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibMNG;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibOpenJPEG;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibPNG;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibRawLite;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\source\common;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\shaders;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\glfw-3.2\deps;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibMNG;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibOpenJPEG;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibPNG;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibRawLite;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\source\common;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\shaders;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\glfw-3.2\deps;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibJPEG;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibMNG;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibOpenJPEG;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibPNG;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibRawLite;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\FreeImage3151\Source\LibTIFF;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\source\common;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\shaders;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\build\ZERO_CHECK.vcxproj">
+      <Project>{5E0BB883-E4D1-340E-A065-E912275EB3DD}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\build\FreeImage3151\FreeImage.vcxproj">
+      <Project>{01A1305D-EB06-3E8C-8FDD-AFC55DC5D307}</Project>
+      <Name>FreeImage</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\build\earth.vcxproj">
+      <Project>{C531958F-6699-3161-88C3-5D5283CECE57}</Project>
+      <Name>earth</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\build\glad.vcxproj">
+      <Project>{F7A8F8A9-6755-3012-B209-0A29BDB4496B}</Project>
+      <Name>glad</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\Blue Globe OpenGL\build\glfw-3.2\src\glfw.vcxproj">
+      <Project>{776E79C1-0643-3FF2-8366-BFA6C8EAF7F4}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
